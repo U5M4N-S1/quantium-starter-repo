@@ -83,7 +83,11 @@ app.layout = html.Div(
         html.Div(
             style=card_style,
             children=[
-                html.H1("Soul Foods — Pink Morsel Sales Visualiser", style=header_style),
+                html.H1(
+    "Soul Foods — Pink Morsel Sales Visualiser",
+    id="header",
+    style=header_style,
+),
                 html.P(
                     "Explore sales trends before and after the price increase on 15 January 2021",
                     style=subheader_style,
